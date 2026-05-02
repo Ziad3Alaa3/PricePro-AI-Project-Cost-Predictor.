@@ -51,5 +51,5 @@ The engine behind PricePro AI is a fine-tuned **Random Forest Regressor** optimi
 
 ---
 <p align="center">
-  Generated with ❤️ by PricePro AI Engine | 2026
+  Generated with ❤️ by Ziad Alaa | 2026
 </p>
