@@ -1,7 +1,7 @@
 # 💎 PricePro AI: High-Performance Cost Estimator
 
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/3260/3260838.png" width="120" alt="Logo">
+  <img src="https://cdn-icons-png.flaticon.com/512/1055/1055644.png" width="120" alt="PricePro Logo">
 </p>
 
 PricePro AI is a sophisticated **Machine Learning** solution designed to provide accurate cost estimations for software projects. Built with a focus on precision and user experience, it helps bridge the gap between technical complexity and fair market valuation.
@@ -14,7 +14,7 @@ PricePro AI is a sophisticated **Machine Learning** solution designed to provide
 ---
 
 ## 📊 Deep Data Insights (EDA)
-Our model is backed by a rigorous Exploratory Data Analysis. We analyzed key drivers such as project hours, team size, and company tiers to ensure reliable predictions.
+Our model is backed by a rigorous Exploratory Data Analysis (EDA). We analyzed key drivers such as project hours, team size, and company tiers to ensure reliable predictions.
 
 | ⏱️ Cost vs Hours | 📁 Category Distribution |
 |---|---|
@@ -51,5 +51,5 @@ The engine behind PricePro AI is a fine-tuned **Random Forest Regressor** optimi
 
 ---
 <p align="center">
-  Generated with ❤️ by Ziad Alaa | 2026 
+  Generated with ❤️ by Ziad | 2026
 </p>
