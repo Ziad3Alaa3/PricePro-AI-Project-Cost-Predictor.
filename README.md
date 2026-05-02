@@ -9,8 +9,7 @@ PricePro AI is a sophisticated **Machine Learning** solution designed to provide
 ---
 
 ## 🚀 Live Experience
-**Check out the live app here:** [👉 Click to Launch App]((https://pricepro-ai-project-cost-predictor-6knflbliqk4okh2blbpt8v.streamlit.app/))
-
+**Check out the live app here:** [👉 Click to Launch App](https://pricepro-ai-project-cost-predictor-6knflbliqk4okh2blbpt8v.streamlit.app/)
 ---
 
 ## 📊 Deep Data Insights (EDA)
