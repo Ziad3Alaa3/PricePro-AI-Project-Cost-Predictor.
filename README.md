@@ -1,23 +1,55 @@
-# 💎 PricePro AI: Luxury Project Estimator
+# 💎 PricePro AI: High-Performance Cost Estimator
 
-PricePro AI is a high-end Machine Learning tool designed to help developers and agencies estimate fair project pricing based on historical market data.
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/3260/3260838.png" width="120" alt="Logo">
+</p>
 
-## 🚀 Key Features
-- **Modern UI:** Glassmorphism design with interactive Lottie animations.
-- **Predictive Power:** 96% R² Score using optimized Random Forest Regressor.
-- **Data Insights:** Visual analytics for better pricing decisions.
+PricePro AI is a sophisticated **Machine Learning** solution designed to provide accurate cost estimations for software projects. Built with a focus on precision and user experience, it helps bridge the gap between technical complexity and fair market valuation.
 
-## 📊 Data Insights (EDA)
-Below are some insights from our data analysis:
+---
 
-| Cost vs Hours | Distribution by Project Type |
+## 🚀 Live Experience
+**Check out the live app here:** [👉 Click to Launch App](رابط_موقعك_على_Streamlit)
+
+---
+
+## 📊 Deep Data Insights (EDA)
+Our model is backed by a rigorous Exploratory Data Analysis. We analyzed key drivers such as project hours, team size, and company tiers to ensure reliable predictions.
+
+| ⏱️ Cost vs Hours | 📁 Category Distribution |
 |---|---|
-| ![Scatter](./image_96e6a6.png) | ![BoxPlot](./image_96e688.png) |
+| ![Scatter Plot](./Cost_vs_Hours_by_CompanySize.png) | ![Box Plot](./Cost_Distribution_by_ProjectType.png) |
 
-## 🛠️ Performance Metrics
-- **Algorithm:** Random Forest Regressor
-- **MAE:** $1,495
-- **Accuracy:** 96%
+| 👥 Team Size Trends | 🧠 Feature Correlation |
+|---|---|
+| ![Line Plot](./TeamSize_Trend_Over_Hours.png) | ![Matrix](./Feature_Relationships_Matrix.png) |
 
-## 👨‍💻 Developer
-**Ziad** - Data Scientist & ML Engineer
+---
+
+## 🧠 Model Intelligence
+The engine behind PricePro AI is a fine-tuned **Random Forest Regressor** optimized via `GridSearchCV`.
+
+- **Accuracy (R² Score):** `96%`
+- **Error Margin (MAE):** `$1,495`
+- **Primary Features:** Project Type, Hours, Team Size, Company Size, and Seniority.
+
+---
+
+## 🛠️ Built With
+- **Language:** Python
+- **ML Libraries:** Scikit-Learn, Pandas, NumPy, Joblib
+- **Interface:** Streamlit (Luxury Glassmorphism UI)
+- **Visuals:** Seaborn, Matplotlib
+
+---
+
+## 👨‍💻 Developer Profile
+**Ziad**
+*Data Scientist & Machine Learning Engineer*
+
+[LinkedIn](https://linkedin.com) | [GitHub](https://github.com) | [Portfolio](#)
+
+---
+<p align="center">
+  Generated with ❤️ by PricePro AI Engine | 2026
+</p>
