@@ -121,8 +121,8 @@ PricePro-AI-Project-Cost-Predictor/
 ├── TeamSize_Trend_Over_Hours.png
 ├── Feature_Relationships_Matrix.png
 └── README.md
-👨‍💻 Developer
 
+👨‍💻 Developer
 Ziad Alaa
 Machine Learning Engineer
 
