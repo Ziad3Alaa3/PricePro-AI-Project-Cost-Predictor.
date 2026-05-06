@@ -1,54 +1,130 @@
-# 💎 PricePro AI: High-Performance Cost Estimator
+# 💎 PricePro AI: Software Project Cost Estimator
 
 <p align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/1055/1055644.png" width="120" alt="PricePro Logo">
 </p>
 
-PricePro AI is a sophisticated **Machine Learning** solution designed to provide accurate cost estimations for software projects. Built with a focus on precision and user experience, it helps bridge the gap between technical complexity and fair market valuation.
+PricePro AI is an end-to-end **Machine Learning regression project** that predicts the estimated cost of software projects based on project requirements such as project type, estimated hours, team size, company size, and required experience level.
+
+The project includes data analysis, model training, hyperparameter tuning, model evaluation, and deployment using Streamlit.
 
 ---
 
-## 🚀 Live Experience
-**Check out the live app here:** [👉 Click to Launch App](https://pricepro-ai-project-cost-predictor-6knflbliqk4okh2blbpt8v.streamlit.app/)
+## 🚀 Live Demo
+
+**Try the live app here:**  
+[👉 Launch PricePro AI](https://pricepro-ai-project-cost-predictor-6knflbliqk4okh2blbpt8v.streamlit.app/)
+
 ---
 
-## 📊 Deep Data Insights (EDA)
-Our model is backed by a rigorous Exploratory Data Analysis (EDA). We analyzed key drivers such as project hours, team size, and company tiers to ensure reliable predictions.
+## 🎯 Problem Statement
 
-| ⏱️ Cost vs Hours | 📁 Category Distribution |
+Estimating the cost of software projects can be difficult because pricing depends on multiple factors such as project complexity, development hours, team size, company size, and required expertise.
+
+This project aims to build a machine learning model that predicts software project cost in a more data-driven and consistent way.
+
+---
+
+## 📌 Project Workflow
+
+1. Data Cleaning
+2. Exploratory Data Analysis
+3. Feature Engineering
+4. Model Training
+5. Hyperparameter Tuning using `GridSearchCV`
+6. Model Evaluation
+7. Model Deployment with Streamlit
+
+---
+
+## 📊 Exploratory Data Analysis
+
+The EDA focused on understanding the relationship between project cost and key features such as estimated hours, project type, team size, and company size.
+
+| Cost vs Hours | Cost Distribution by Project Type |
 |---|---|
 | ![Scatter Plot](./Cost_vs_Hours_by_CompanySize.png) | ![Box Plot](./Cost_Distribution_by_ProjectType.png) |
 
-| 👥 Team Size Trends | 🧠 Feature Correlation |
+| Team Size Trend | Feature Relationships |
 |---|---|
 | ![Line Plot](./TeamSize_Trend_Over_Hours.png) | ![Matrix](./Feature_Relationships_Matrix.png) |
 
 ---
 
-## 🧠 Model Intelligence
-The engine behind PricePro AI is a fine-tuned **Random Forest Regressor** optimized via `GridSearchCV`.
+## 🧠 Model
 
-- **Accuracy (R² Score):** `96%`
-- **Error Margin (MAE):** `$1,495`
-- **Primary Features:** Project Type, Hours, Team Size, Company Size, and Seniority.
+The final model used in this project is a **Random Forest Regressor**.
+
+The model was optimized using `GridSearchCV` to improve performance and select the best hyperparameters.
+
+### Model Performance
+
+| Metric | Value |
+|---|---:|
+| R² Score | 0.96 |
+| Mean Absolute Error | $1,495 |
+
+> Note: Since this is a regression problem, the model is evaluated using regression metrics such as R² Score and MAE, not classification accuracy.
+
+---
+
+## 🔑 Features Used
+
+The model uses the following input features:
+
+- Project Type
+- Estimated Hours
+- Team Size
+- Company Size
+- Required Experience Level
 
 ---
 
-## 🛠️ Built With
-- **Language:** Python
-- **ML Libraries:** Scikit-Learn, Pandas, NumPy, Joblib
-- **Interface:** Streamlit (Luxury Glassmorphism UI)
-- **Visuals:** Seaborn, Matplotlib
+## 🛠️ Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- GridSearchCV
+- Joblib
+- Streamlit
+- Matplotlib
+- Seaborn
 
 ---
 
-## 👨‍💻 Developer Profile
-**Ziad**
-*Data Scientist & Machine Learning Engineer*
+## 📦 How to Run Locally
 
-[LinkedIn](https://linkedin.com) | [GitHub](https://github.com) | [Portfolio](#)
+Clone the repository:
 
----
-<p align="center">
-  Generated with ❤️ by Ziad | 2026
-</p>
+```bash
+git clone https://github.com/Ziad3Alaa3/PricePro-AI-Project-Cost-Predictor.git
+cd PricePro-AI-Project-Cost-Predictor
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the Streamlit app:
+
+streamlit run app.py
+📁 Project Structure
+PricePro-AI-Project-Cost-Predictor/
+│
+├── app.py
+├── Project_Cost_Predictor.ipynb
+├── project_cost_model.pkl
+├── requirements.txt
+├── Cost_vs_Hours_by_CompanySize.png
+├── Cost_Distribution_by_ProjectType.png
+├── TeamSize_Trend_Over_Hours.png
+├── Feature_Relationships_Matrix.png
+└── README.md
+👨‍💻 Developer
+
+Ziad Alaa
+Machine Learning Engineer
+
+GitHub: Ziad3Alaa3
+LinkedIn: (www.linkedin.com/in/ziadalaa-dev)
